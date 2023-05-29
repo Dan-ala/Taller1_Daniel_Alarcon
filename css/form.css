@@ -1,0 +1,36 @@
+.formulario{
+align-content: right;
+justify-content: right;
+border: solid 1px;
+border-color: yellow;
+background-color: aqua;
+margin-top: -38.5rem;
+margin-left: 20rem;
+width: 400px;
+float: left;
+}
+
+.formulario_r4{
+    align-content: right;
+    justify-content: right;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -38.5rem;
+    margin-left: 20rem;
+    width: 650px;
+    float: left;
+}
+
+.ojo,.opc{
+align-content: right;
+justify-content: right;
+float: right;
+margin-top: -77px;
+}
+
+#btnFormas{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
