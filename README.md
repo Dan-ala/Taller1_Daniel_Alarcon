@@ -18,3 +18,5 @@ Básicamente en este proyecto, podremos visualizar 4 retos dispuestos en clase p
 ## Reto 4:
 ### Este reto nos permite identificar que tipo de triángulo es, dependiendo sus 3 lados; tenemos triángulo EQUILATERO, ESCALENO y ISOSCELES
 ![4](https://github.com/Dan-ala/Taller1_Daniel_Alarcon/assets/125916495/d49d55d2-d42d-4232-979d-40298c834492)
+
+## Hay que tener en cuenta que este proyecto es hecho con parte del DOM de JavaScript
