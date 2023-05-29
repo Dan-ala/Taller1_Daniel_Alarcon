@@ -14,3 +14,7 @@ Básicamente en este proyecto, podremos visualizar 4 retos dispuestos en clase p
 ## Reto 3:
 ### Este reto consiste en convertir temperaturas en grados en 3 temperaturas, Celsius, Fahrenheit y Kelvin.
 ![3](https://github.com/Dan-ala/Taller1_Daniel_Alarcon/assets/125916495/c72ec101-f488-4e93-ba03-1a7608f9f316)
+
+## Reto 4:
+### Este reto nos permite identificar que tipo de triángulo es, dependiendo sus 3 lados; tenemos triángulo EQUILATERO, ESCALENO y ISOSCELES
+![4](https://github.com/Dan-ala/Taller1_Daniel_Alarcon/assets/125916495/d49d55d2-d42d-4232-979d-40298c834492)
