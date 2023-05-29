@@ -10,3 +10,7 @@ Básicamente en este proyecto, podremos visualizar 4 retos dispuestos en clase p
 ## Reto 2:
 ### En este reto se evidencias 10 eventos comunes de JS, en los cuales tienen su respectiva interacción
 ![2](https://github.com/Dan-ala/Taller1_Daniel_Alarcon/assets/125916495/9e16095e-c851-4189-ba23-25b89ae18c7a)
+
+## Reto 3:
+### Este reto consiste en convertir temperaturas en grados en 3 temperaturas, Celsius, Fahrenheit y Kelvin.
+![3](https://github.com/Dan-ala/Taller1_Daniel_Alarcon/assets/125916495/c72ec101-f488-4e93-ba03-1a7608f9f316)
