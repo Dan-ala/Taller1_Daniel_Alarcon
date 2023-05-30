@@ -22,11 +22,45 @@ float: left;
     float: left;
 }
 
+.formulario_r5{
+    margin: 0;
+    padding: 0;
+    align-content: right;
+    justify-content: right;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -38.5rem;
+    margin-left: 20rem;
+    width: 520px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.382);
+    color: white;
+}
+
 .ojo,.opc{
 align-content: right;
 justify-content: right;
 float: right;
 margin-top: -77px;
+}
+
+.ojo2{
+    display:flexbox;
+    align-content:center;
+    justify-content: center;
+    float: right;
+    margin-top: -77px;
+    margin-right: 320px;
+}
+
+.ojo3{
+    display: flexbox;
+        align-content:center;
+        justify-content: center;
+        float: right;
+        margin-top: -77px;
+        margin-right: 30px;
 }
 
 #btnFormas{

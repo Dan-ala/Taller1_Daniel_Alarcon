@@ -89,8 +89,8 @@ document.getElementById(
         "test4").innerHTML = "Button Released.";
   }
 //e10
-document.getElementById("bd").addEventListener("unload", e10)
+document.getElementById("bd").addEventListener("onunload", e10)
 
 function e10(){
-    alert('Are you sure u wanna leave?')
+    confirm('Are you sure u wanna leave?')
 }
