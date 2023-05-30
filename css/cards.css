@@ -1,0 +1,70 @@
+.card1{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -625px;
+    display: flexbox;
+    margin-right: 680px;
+    width: 290px;
+    height: 350px;
+    float: right;
+}
+#btnCard1{
+    margin-top: 20px;
+}
+
+#pCard1{
+    margin-top: 100px;
+    display: flex;
+}
+
+
+.card2{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -625px;
+    display:inline-flexbox;
+    margin-right: 349px;
+    width: 290px;
+    height: 350px;
+    float: right;
+}
+#btnCard2{
+    margin-top: 20px;
+}
+
+#pCard2{
+    margin-top: 100px;
+    display: flex;
+}
+
+
+
+
+
+.card3{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -625px;
+    display: flexbox;
+    margin-right: 20px;
+    width: 290px;
+    height: 350px;
+    float: right;
+}
+#btnCard3{
+    margin-top: 20px;
+}
+
+#pCard3{
+    margin-top: 100px;
+    display: flex;
+}
