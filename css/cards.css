@@ -6,17 +6,25 @@
     background-color: aqua;
     margin-top: -625px;
     display: flexbox;
-    margin-right: 680px;
-    width: 290px;
+    margin-right: 907px;
+    width: 275px;
     height: 350px;
     float: right;
 }
 #btnCard1{
-    margin-top: 20px;
+    display: flexbox;
+}
+
+#btnCard1:hover{
+    background-color: #0093F5;
+}
+
+#btnCard11:hover{
+    background-color: #F59000;
 }
 
 #pCard1{
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
 }
 
@@ -26,23 +34,83 @@
     justify-content: center;
     border: solid 1px;
     border-color: yellow;
-    background-color: aqua;
+    background-color: greenyellow;
     margin-top: -625px;
-    display:inline-flexbox;
-    margin-right: 349px;
-    width: 290px;
+    /* display: flexbox; */
+    display: none;
+    margin-right: 620px;
+    width: 275px;
     height: 350px;
     float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
 }
-#btnCard2{
-    margin-top: 20px;
+
+
+
+
+
+
+
+
+
+.card22{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: rgb(255, 47, 113);
+    margin-top: -625px;
+    /* display: flexbox; */
+    margin-right: 620px;
+    width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes aM{
+    from{top: 300px;opacity: 0;}
+    to{top: 0; opacity: 1;}
+}
+
+
+#btnCard2:hover{
+    background-color: #0093F5;
+}
+
+#btnCard22:hover{
+    background-color: #F59000;
 }
 
 #pCard2{
-    margin-top: 100px;
-    display: flex;
+    margin-top: 80px;
 }
 
+.closeM2{
+    float: right;
+    font-size: 18px;
+}
+
+.closeM2:hover{
+    cursor: pointer;;
+}
 
 
 
@@ -55,16 +123,47 @@
     background-color: aqua;
     margin-top: -625px;
     display: flexbox;
+    margin-right: 320px;
+    width: 275px;
+    height: 350px;
+    float: right;
+}
+
+#btnCard3:hover{
+    background-color: #0093F5;
+}
+
+#btnCard33:hover{
+    background-color: #F59000;
+}
+
+#pCard3{
+    margin-top: 80px;
+}
+
+
+.card4{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -625px;
+    display: flexbox;
     margin-right: 20px;
     width: 290px;
     height: 350px;
     float: right;
 }
-#btnCard3{
-    margin-top: 20px;
+#btnCard4:hover{
+    background-color: #0093F5;
 }
 
-#pCard3{
+#btnCard44:hover{
+    background-color: #F59000;
+}
+
+#pCard4{
     margin-top: 100px;
     display: flex;
 }
