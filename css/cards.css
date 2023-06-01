@@ -5,11 +5,14 @@
     border-color: yellow;
     background-color: aqua;
     margin-top: -625px;
-    display: flexbox;
+    display: none;
     margin-right: 907px;
     width: 275px;
     height: 350px;
     float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
 }
 #btnCard1{
     display: flexbox;
@@ -34,7 +37,7 @@
     justify-content: center;
     border: solid 1px;
     border-color: yellow;
-    background-color: greenyellow;
+    background-color: rgb(103, 161, 17);
     margin-top: -625px;
     /* display: flexbox; */
     display: none;
@@ -49,41 +52,7 @@
 
 
 
-
-
-
-
-
-
-.card22{
-    align-content:center;
-    justify-content: center;
-    border: solid 1px;
-    border-color: yellow;
-    background-color: rgb(255, 47, 113);
-    margin-top: -625px;
-    /* display: flexbox; */
-    margin-right: 620px;
-    width: 275px;
-    height: 350px;
-    float: right;
-    animation-name: aM;
-    animation-duration: 2s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*ANIMACIONES*/
 
 @keyframes aM{
     from{top: 300px;opacity: 0;}
@@ -103,12 +72,12 @@
     margin-top: 80px;
 }
 
-.closeM2{
+.closeM, .closeM2{
     float: right;
     font-size: 18px;
 }
 
-.closeM2:hover{
+.closeM, .closeM2:hover{
     cursor: pointer;;
 }
 
@@ -166,4 +135,68 @@
 #pCard4{
     margin-top: 100px;
     display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CARDS DE INICIO*/
+
+.cardIni1{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -625px;
+    margin-right: 907px;
+    width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+}
+
+
+
+.cardIni2{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: rgb(255, 47, 113);
+    margin-top: -625px;
+    /* display: flexbox; */
+    margin-right: 620px;
+    width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+}
+.cardIni22{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: rgb(47, 54, 255);
+    margin-top: -625px;
+    /* display: flexbox; */
+    margin-right: 620px;
+    width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
 }
