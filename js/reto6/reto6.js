@@ -4,14 +4,26 @@ let btnModal11=document.getElementById("btnCard1Area")
 
 let vModalCirculo=document.querySelector(".card1")
 let vModalCirculo11=document.querySelector(".cardIni1")
+let vModalCirculoArea=document.querySelector(".cardArea1")
 
 let btnCloseCirculo=document.querySelector(".closeM")
+let btnCloseArea=document.querySelector(".closeMArea")
 
-vModalCirculo11.addEventListener("click", ()=>{
+btnModalCirculo.addEventListener("click", ()=>{
     vModalCirculo.style.display="block"
+});
+
+// //Abrir Ventana del área
+btnModal11.addEventListener("click", ()=>{
+    vModalCirculoArea.style.display="block"
 })
 
 btnCloseCirculo.addEventListener("click", ()=>{
+    vModalCirculo.style.display="none"
+})
+
+//Cerrar Modal de área
+btnCloseArea.addEventListener("click", ()=>{
     vModalCirculo.style.display="none"
 })
 

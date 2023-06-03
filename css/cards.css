@@ -14,6 +14,26 @@
     animation-duration: 2s;
     z-index: 1;
 }
+
+
+.cardArea1{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: aqua;
+    margin-top: -625px;
+    display: none;
+    margin-right: 907px;
+    width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
+}
+
+
 #btnCard1{
     display: flexbox;
 }
@@ -72,13 +92,13 @@
     margin-top: 80px;
 }
 
-.closeM, .closeM2{
+.closeM, .closeMArea, .closeM2{
     float: right;
     font-size: 18px;
 }
 
-.closeM, .closeM2:hover{
-    cursor: pointer;;
+.closeM, .closeMArea, .closeM2:hover{
+    cursor: pointer;
 }
 
 
