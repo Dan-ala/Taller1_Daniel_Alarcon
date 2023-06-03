@@ -14,5 +14,12 @@ function perC(e){
 function areaC(e){
     e.preventDefault()
 
-    let A=parseFloat(document.getElementById)
+    let r1=parseFloat(document.getElementById("r1").value)
+
+    let A=(Math.PI*r1*r1)
+
+    let resultadoArea=document.getElementById("r11")
+    resultadoArea.innerHTML=`${A}`
+
+    document.body.innerHTML(resultadoArea)
 }

@@ -24,7 +24,7 @@ btnCloseCirculo.addEventListener("click", ()=>{
 
 //Cerrar Modal de área
 btnCloseArea.addEventListener("click", ()=>{
-    vModalCirculo.style.display="none"
+    vModalCirculoArea.style.display="none"
 })
 
 
