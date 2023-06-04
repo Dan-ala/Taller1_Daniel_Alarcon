@@ -71,6 +71,24 @@
 }
 
 
+.cardArea2{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: rgb(255, 47, 113);
+    margin-top: -625px;
+    /* display: flexbox; */
+    display: none;
+    margin-right: 620px;
+    width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
+}
+
 
 /*ANIMACIONES*/
 
@@ -92,12 +110,12 @@
     margin-top: 80px;
 }
 
-.closeM, .closeMArea, .closeM2{
+.closeM, .closeMArea, .closeM2, .closeM22{
     float: right;
     font-size: 18px;
 }
 
-.closeM, .closeMArea, .closeM2:hover{
+.closeM, .closeMArea, .closeM2, .closeM22:hover{
     cursor: pointer;
 }
 

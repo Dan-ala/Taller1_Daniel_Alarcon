@@ -40,6 +40,7 @@ let btnModal22=document.getElementById("btnCard2Area");
 //2. Acceder a la ventana modal
 let ventaM2=document.querySelector(".card2");
 let ventaM22=document.querySelector(".cardIni2");
+let vModalAreaT=document.querySelector(".cardArea2")
 
 
 //3. Acceder al boton de cierre de la ventana modal
@@ -51,7 +52,19 @@ btnModal2.addEventListener("click", ()=>{
     ventaM2.style.display="block"
 });
 
+
+
+btnModal22.addEventListener("click", ()=>{
+    vModalAreaT.style.display="block"
+})
+
+
+
 //5. Cerrar ventana modal
 clM.addEventListener("click", ()=>{
     ventaM2.style.display="none"
+});
+
+clM2.addEventListener("click", ()=>{
+    vModalAreaT.style.display="none"
 });

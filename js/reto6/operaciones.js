@@ -39,3 +39,17 @@ function perT(e) {
     document.body.innerHTML(resultado2)
     
 }
+
+function areaT(e){
+    e.preventDefault()
+
+    let base=parseFloat(document.getElementById("base").value)
+    let altura=parseFloat(document.getElementById("altura").value)
+
+    let AreaT=(base*altura)/2
+
+    let resultadoAreaT=document.getElementById("AT")
+    resultadoAreaT.innerHTML=`${AreaT}`
+
+    document.body.innerHTML(resultadoAreaT)
+}
