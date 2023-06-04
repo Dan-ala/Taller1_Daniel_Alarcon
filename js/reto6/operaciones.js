@@ -23,3 +23,19 @@ function areaC(e){
 
     document.body.innerHTML(resultadoArea)
 }
+
+function perT(e) {
+    e.preventDefault()
+
+    let l1=parseFloat(document.getElementById("LadoA").value)
+    let l2=parseFloat(document.getElementById("LadoB").value)
+    let l3=parseFloat(document.getElementById("LadoC").value)
+
+    let PerT=l1+l2+l3
+
+    let resultado2=document.getElementById("pT")
+    resultado2.innerHTML=`${PerT}`
+
+    document.body.innerHTML(resultado2)
+    
+}
