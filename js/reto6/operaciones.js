@@ -53,3 +53,31 @@ function areaT(e){
 
     document.body.innerHTML(resultadoAreaT)
 }
+
+function perR(e){
+    e.preventDefault()
+
+    let baseR=parseInt(document.getElementById("baseRectangulo").value)
+    let alturaR=parseInt(document.getElementById("alturaRectangulo").value)
+
+    let PerR=baseR*2+alturaR*2
+
+    let rPerR=document.getElementById("pR")
+    rPerR.innerHTML=`${PerR} cm`
+
+    document.body.innerHTML(rPerR)
+}
+
+function AreaR(e){
+    e.preventDefault()
+
+    let baseR2=parseInt(document.getElementById("baseRectangulo2").value)
+    let alturaR2=parseInt(document.getElementById("alturaRectangulo2").value)
+
+    let AreaR=baseR2*alturaR2
+
+    let rAreaR=document.getElementById("aR")
+    rAreaR.innerHTML=`${AreaR} cm²`
+
+    document.body.innerHTML(rAreaR)
+}

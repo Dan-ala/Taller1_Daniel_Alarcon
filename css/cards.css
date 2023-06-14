@@ -34,22 +34,6 @@
 }
 
 
-#btnCard1{
-    display: flexbox;
-}
-
-#btnCard1:hover{
-    background-color: #0093F5;
-}
-
-#btnCard11:hover{
-    background-color: #F59000;
-}
-
-#pCard1{
-    margin-top: 80px;
-    display: flex;
-}
 
 
 .card2{
@@ -97,25 +81,14 @@
     to{top: 0; opacity: 1;}
 }
 
+/*Cierre de Modales*/
 
-#btnCard2:hover{
-    background-color: #0093F5;
-}
-
-#btnCard22:hover{
-    background-color: #F59000;
-}
-
-#pCard2{
-    margin-top: 80px;
-}
-
-.closeM, .closeMArea, .closeM2, .closeM22{
+.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33{
     float: right;
     font-size: 18px;
 }
 
-.closeM, .closeMArea, .closeM2, .closeM22:hover{
+.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33:hover{
     cursor: pointer;
 }
 
@@ -127,26 +100,61 @@
     justify-content: center;
     border: solid 1px;
     border-color: yellow;
-    background-color: aqua;
+    background-color: darkcyan;
     margin-top: -625px;
-    display: flexbox;
+    display: none;
     margin-right: 320px;
     width: 275px;
     height: 350px;
     float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
 }
 
-#btnCard3:hover{
+.cardArea3{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: darkcyan;
+    margin-top: -625px;
+    display: none;
+    margin-right: 320px;
+    width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
+}
+
+/*HOVER CON ID*/
+#btnCard1Per:hover{
     background-color: #0093F5;
 }
 
-#btnCard33:hover{
+#btnCard1Area:hover{
     background-color: #F59000;
 }
 
-#pCard3{
-    margin-top: 80px;
+#btnCard2Per:hover{
+    background-color: #0093F5;
 }
+
+#btnCard2Area:hover{
+    background-color: #F59000;
+}
+
+
+.btnCard3Per:hover{
+    background-color: #0093F5;
+}
+
+.btnCard3Area:hover{
+    background-color: #F59000;
+}
+
 
 
 .card4{
@@ -162,19 +170,6 @@
     height: 350px;
     float: right;
 }
-#btnCard4:hover{
-    background-color: #0093F5;
-}
-
-#btnCard44:hover{
-    background-color: #F59000;
-}
-
-#pCard4{
-    margin-top: 100px;
-    display: flex;
-}
-
 
 
 
@@ -206,8 +201,6 @@
     animation-duration: 2s;
 }
 
-
-
 .cardIni2{
     align-content:center;
     justify-content: center;
@@ -223,15 +216,15 @@
     animation-name: aM;
     animation-duration: 2s;
 }
-.cardIni22{
+
+.cardIni3{
     align-content:center;
     justify-content: center;
     border: solid 1px;
     border-color: yellow;
-    background-color: rgb(47, 54, 255);
+    background-color: darkcyan;
     margin-top: -625px;
-    /* display: flexbox; */
-    margin-right: 620px;
+    margin-right: 320px;
     width: 275px;
     height: 350px;
     float: right;

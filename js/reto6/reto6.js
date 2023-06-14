@@ -59,7 +59,6 @@ btnModal22.addEventListener("click", ()=>{
 })
 
 
-
 //5. Cerrar ventana modal
 clM.addEventListener("click", ()=>{
     ventaM2.style.display="none"
@@ -68,3 +67,38 @@ clM.addEventListener("click", ()=>{
 clM2.addEventListener("click", ()=>{
     vModalAreaT.style.display="none"
 });
+
+
+
+//RECTÁNGULO
+let btnModalPerRec=document.getElementById("btnCard3Per")
+let btnModalAreRect=document.getElementById("btnCard3Area")
+
+//Ventana modal
+let vModal3=document.querySelector(".card3")
+let vModalIni3=document.querySelector(".cardIni3")
+let vModalAreaR=document.querySelector(".cardArea3")
+
+//Cerrar ventana modal
+let closePerRec=document.querySelector(".closeM3")
+let closeAreaRec=document.querySelector(".closeM33")
+
+//Abrir modal
+btnModalPerRec.addEventListener("click", ()=>{
+    vModal3.style.display="block"
+})
+
+//modal del áreaR
+btnModalAreRect.addEventListener("click", ()=>{
+    vModalAreaR.style.display="block"
+})
+
+//Cerrar modal
+closePerRec.addEventListener("click", ()=>{
+    vModal3.style.display="none"
+})
+
+//Cerrar modal del área
+closeAreaRec.addEventListener("click",()=>{
+    vModalAreaR.style.display="none"
+})

@@ -131,25 +131,56 @@
             </div>
 
 
+            <div class="cardIni3">
+                <button id="btnCard3Per">Perímetro</button>
+                <button id="btnCard3Area">Área</button>
+            </div>
 
-            <div class="contentM3">
                 <div class="card3">
                     <span class="closeM3">X</span>
-                    <h5>RECTANGULO</h5>
-                    <p id="pCard3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dicta ad cum iste ipsum quas. Ducimus fugit repudiandae eligendi adipisci, sunt, minima recusandae molestias error libero distinctio, ullam unde. Repellendus.</p>
-                    <a href=""><button id="btnCard3">Perímetro</button></a>
-                    <a href=""><button id="btnCard33">Área</button></a>
+                    <h5>Calcular el Perímetro</h5>
+                    <br>
+                    <input id="baseRectangulo" type="text" placeholder="Base del rectángulo">
+                    <br><br>
+                    <input id="alturaRectangulo" type="text" placeholder="Altura del rectángulo">
+                    <br><br>
+                    <button id="btnCaclcPerRect" onclick="perR(event)">Calcular</button>
+                    <br><br>
+                    <h5 id="pR">Resultado</h5>
                 </div>
+                <!--Este es el model del área del rectángulo-->
+                <div class="cardArea3">
+                    <span class="closeM33">X</span>
+                    <h5>Calcular el Área</h5>
+                    <br>
+                    <input id="baseRectangulo2" type="text" placeholder="Base del rectángulo">
+                    <br><br>
+                    <input id="alturaRectangulo2" type="text" placeholder="Altura del rectángulo">
+                    <br><br>
+                    <button id="btnCaclcAreaRect" onclick="AreaR(event)">Calcular</button>
+                    <br><br>
+                    <h5 id="aR">Resultado</h5>
                 </div>
 
-                <div class="contentM4">
+
+
+
+                <div class="cardIni4">
+                    <button id="btnCard4Per">Perímetro</button>
+                    <button id="btnCard4Area">Área</button>
+                </div>
+
                     <div class="card4">
                         <span class="closeM4">X</span>
                         <h5>CUADRADO</h5>
-                        <p id="pCard4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dicta ad cum iste ipsum quas. Ducimus fugit repudiandae eligendi adipisci, sunt, minima recusandae molestias error libero distinctio, ullam unde. Repellendus.</p>
-                        <a href=""><button id="btnCard4">Perímetro</button></a>
-                        <a href=""><button id="btnCard44">Área</button></a>
-                    </div>
+                        <br>
+                        <input id="baseRectangulo2" type="text" placeholder="Base del rectángulo">
+                        <br><br>
+                        <input id="alturaRectangulo2" type="text" placeholder="Altura del rectángulo">
+                        <br><br>
+                        <button id="btnCalcpCuad" onclick="pCuadrado(event)">Calcular</button>
+                        <br><br>
+                        <h5 id="pCuadrado">Resultado</h5>
                     </div>
     </main>
 
