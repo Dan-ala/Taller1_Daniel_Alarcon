@@ -1,0 +1,20 @@
+/*FORM - reto7*/
+.retoForm{
+    border: solid 1px;
+    border-color: yellow;
+    margin-top: -45rem;
+    margin-left: 20rem;
+    width: 400px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.382);
+    color: aliceblue;
+    position: relative;
+}
+
+input{
+    width: 50%;
+}
+
+#Terms-Conditions{
+    width: 10%;
+}
