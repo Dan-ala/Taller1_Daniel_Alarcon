@@ -81,3 +81,31 @@ function AreaR(e){
 
     document.body.innerHTML(rAreaR)
 }
+
+function pCuadrado(e){
+    e.preventDefault()
+
+    let baseCuad=parseInt(document.getElementById("baseCuadrado").value)
+    let alturaCuad=parseInt(document.getElementById("alturaCuadrado").value)
+
+    let pCuadrado=baseCuad*2+alturaCuad*2
+
+    let rPCuad=document.getElementById("pCuadrado")
+    rPCuad.innerHTML=`${pCuadrado} cm`
+
+    document.body.innerHTML(rPCuad)
+}
+
+function aCuadrado(e){
+    e.preventDefault()
+
+    let baseCuad2=parseInt(document.getElementById("baseCuadrado2").value)
+    let alturaCuad2=parseInt(document.getElementById("alturaCuadrado2").value)
+
+    let ACuadrado=baseCuad2*alturaCuad2
+
+    let rAreaCuad=document.getElementById("aCuadrado")
+    rAreaCuad.innerHTML=`${ACuadrado} cm²`
+
+    document.body.innerHTML(rAreaCuad)
+}

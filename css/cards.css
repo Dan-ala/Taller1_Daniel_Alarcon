@@ -83,12 +83,12 @@
 
 /*Cierre de Modales*/
 
-.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33{
+.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33, .closeM4, .closeM44{
     float: right;
     font-size: 18px;
 }
 
-.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33:hover{
+.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33, .closeM4, .closeM44:hover{
     cursor: pointer;
 }
 
@@ -162,13 +162,33 @@
     justify-content: center;
     border: solid 1px;
     border-color: yellow;
-    background-color: aqua;
+    background-color: lightsalmon;
     margin-top: -625px;
-    display: flexbox;
+    display: none;
     margin-right: 20px;
     width: 290px;
     height: 350px;
     float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
+}
+
+.cardArea4{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: lightsalmon;
+    margin-top: -625px;
+    display: none;
+    margin-right: 20px;
+    width: 290px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+    z-index: 1;
 }
 
 
@@ -226,6 +246,21 @@
     margin-top: -625px;
     margin-right: 320px;
     width: 275px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+}
+
+.cardIni4{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: lightsalmon;
+    margin-top: -625px;
+    margin-right: 20px;
+    width: 290px;
     height: 350px;
     float: right;
     animation-name: aM;

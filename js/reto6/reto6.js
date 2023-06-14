@@ -102,3 +102,32 @@ closePerRec.addEventListener("click", ()=>{
 closeAreaRec.addEventListener("click",()=>{
     vModalAreaR.style.display="none"
 })
+
+
+//CUADRADO
+let btnPerCuadrado=document.getElementById("btnCard4Per")
+let btnAreaCuadrado=document.getElementById("btnCard4Area")
+
+let vModalPerCuadrado=document.querySelector(".card4")
+let vModalAreaCuadrado=document.querySelector(".cardArea4")
+
+let closeModalPer=document.querySelector(".closeM4")
+let closeModalArea=document.querySelector(".closeM44")
+
+btnPerCuadrado.addEventListener("click",()=>{
+    vModalPerCuadrado.style.display="block"
+})
+
+closeModalPer.addEventListener("click",()=>{
+    vModalPerCuadrado.style.display="none"
+})
+
+//Ventana modal del área
+btnAreaCuadrado.addEventListener("click",()=>{
+    vModalAreaCuadrado.style.display="block"
+})
+
+//Cerrar modal del área
+closeModalArea.addEventListener("click",()=>{
+    vModalAreaCuadrado.style.display="none"
+})
