@@ -1,0 +1,84 @@
+.circle{
+    background-color: aliceblue;
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 110px;
+    margin-left: 9vh;
+    margin-top: 25px;
+}
+
+.Cir{
+    color: red;
+    text-align: center;
+  }
+
+
+/*btns1*/
+#btnCard1Per{
+    margin-top: 70px;
+    display: inline-flexbox;
+    margin-left: 9.2vh;
+}
+
+.triangle{
+    border-bottom:150px solid;
+    border-left: 135px solid transparent;
+    border-right: 130px solid transparent;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.tri{
+    color: wheat;
+    text-align: center;
+}
+
+/*btns2*/
+#btnCard2Per{
+    margin-top: 70px;
+    display: inline-flexbox;
+    margin-left: 9.2vh;
+}
+
+
+.rectangulo{
+    background-color: aliceblue;
+    width: 180px;
+    height: 100px;
+    border: 1px solid;
+    margin-left: 7vh;
+    margin-top: 50px;
+}
+
+.rect{
+    color: orange;
+    font-size: 28.5px;
+    text-align: center;
+}
+
+#btnCard3Per{
+    margin-top: 98.2px;
+    display: inline-flexbox;
+    margin-left: 9.2vh;
+}
+
+.cuadrado{
+    background-color: aliceblue;
+    width: 125px;
+    height: 125px;
+    border: 1px solid;
+    margin-left: 12vh;
+    margin-top: 50px;
+}
+
+.cuad{
+    color: black;
+    text-align: center;
+}
+
+#btnCard4Per{
+    margin-top: 70px;
+    display: inline-flexbox;
+    margin-left: 10.5vh;
+}

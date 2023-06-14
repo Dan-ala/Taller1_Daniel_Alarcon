@@ -147,11 +147,19 @@
 }
 
 
-.btnCard3Per:hover{
+#btnCard3Per:hover{
     background-color: #0093F5;
 }
 
-.btnCard3Area:hover{
+#btnCard3Area:hover{
+    background-color: #F59000;
+}
+
+#btnCard4Per:hover{
+    background-color: #0093F5;
+}
+
+#btnCard4Area:hover{
     background-color: #F59000;
 }
 
@@ -207,8 +215,6 @@
 /*CARDS DE INICIO*/
 
 .cardIni1{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
     border-color: yellow;
     background-color: aqua;
@@ -219,6 +225,8 @@
     float: right;
     animation-name: aM;
     animation-duration: 2s;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardIni2{
