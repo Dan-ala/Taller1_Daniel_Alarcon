@@ -18,3 +18,12 @@ input{
 #Terms-Conditions{
     width: 10%;
 }
+
+.warnings{
+    width:  200px;
+    text-align: center;
+    margin: auto;
+    color: blueviolet;
+    display: block;
+    padding-top: 20px;
+}
