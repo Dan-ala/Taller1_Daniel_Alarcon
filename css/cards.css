@@ -83,12 +83,12 @@
 
 /*Cierre de Modales*/
 
-.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33, .closeM4, .closeM44{
+.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33, .closeM4, .closeM44, .closeM5{
     float: right;
     font-size: 18px;
 }
 
-.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33, .closeM4, .closeM44:hover{
+.closeM, .closeMArea, .closeM2, .closeM22, .closeM3, .closeM33, .closeM4, .closeM44, .closeM5:hover{
     cursor: pointer;
 }
 
@@ -268,6 +268,24 @@
     background-color: lightsalmon;
     margin-top: -625px;
     margin-right: 20px;
+    width: 290px;
+    height: 350px;
+    float: right;
+    animation-name: aM;
+    animation-duration: 2s;
+}
+
+
+/*CARD DE TERMS AND CONDITIONS*/
+.TermsandConditions{
+    align-content:center;
+    justify-content: center;
+    border: solid 1px;
+    border-color: yellow;
+    background-color: lightsalmon;
+    margin-top: -500px;
+    display: none;
+    margin-right: -320px;
     width: 290px;
     height: 350px;
     float: right;

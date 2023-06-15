@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/form7.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cards.css">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -48,7 +49,7 @@
         <form class="retoForm" id="form">
             <div>
                 <label for="tDocumento">Tipo de Documento</label>
-                <select name="tDocumento" id="tDocumento">
+                <select name="tDocumento" id="tDocumento" required>
                     <option value="1">TI</option>
                     <option value="2">CC</option>
                     <option value="3">CE</option>
@@ -59,49 +60,60 @@
             <div>
                 <label for="nDocumento">No. Documento</label>
                 <br>
-                <input type="text" id="nDocumento" placeholder="Número de documento">
+                <input type="text" id="nDocumento" placeholder="Número de documento" required>
             </div>
             <br>
             <div>
                 <label for="name">Nombre</label>
                 <br>
-                <input type="text" id="name" placeholder="Ingrese su nombre">
+                <input type="text" id="name" placeholder="Ingrese su nombre" required>
             </div>
             <br>
             <div>
                 <label for="last-name">Apellido</label>
                 <br>
-                <input type="text" id="last-name" placeholder="Ingrese su apellido">
+                <input type="text" id="last-name" placeholder="Ingrese su apellido" required>
             </div>
             <br>
             <div>
                 <label for="date-of-birth">Fecha de Nacimiento</label>
                 <br>
-                <input type="date" id="date-of-birth" min="2002-01-01">
+                <input type="date" id="date-of-birth" min="2002-01-01" required>
             </div>
             <br>
             <div>
                 <label for="Email">Correo</label>
                 <br>
-                <input type="email" id="Email" placeholder="Ingrese su correo">
+                <input type="text" id="Email" placeholder="Ingrese su correo" required>
             </div>
             <br>
             <div>
                 <label for="password">Password</label>
                 <br>
-                <input type="password" id="password" placeholder="Ingrese su contraseña">
+                <input type="password" id="password" placeholder="Ingrese su contraseña" required>
             </div>
             <br>
             <div>
                 <label for="confirm-password">Comprobar Password</label>
                 <br>
-                <input type="password" id="confirm-password" placeholder="Combrobar contraseña">
+                <input type="password" id="confirm-password" placeholder="Combrobar contraseña" required>
             </div>
             <br>
+
+            <div class="TermsandConditions">
+                <span class="closeM5">X</span>
+                <h5>Terminos Y Condiciones</h5>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus? Numquam, autem pariatur ipsam beatae eum impedit nulla molestiae quas repudiandae? Sapiente fugit, earum omnis tempora quisquam quam beatae a.</p>
+                <button id="Accept">Accept</button>
+                <br>
+            </div>
+            
             <div>
                 <label for="Terms-Conditions">Aceptar Términos de uso</label>
-                <input type="checkbox" id="Terms-Conditions">
+                <input type="checkbox" onclick="" id="Terms-Conditions" required>
             </div>
+
             <br>
             <button type="submit">Submit</button>
             <p class="warnings" id="warnings"></p>
@@ -111,7 +123,7 @@
 
     <footer>
         <img class="logo" src="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg" alt="Spacecraft" width="100">
-        <!-- <p>Hola</p> -->
+
         <div class="social-icons-container">
             <a href="https://github.com/Dan-ala/Taller1_Daniel_Alarcon.git" class="social-icon"></a>
         </div>
