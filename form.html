@@ -48,7 +48,7 @@
         
         <form class="retoForm" id="form" novalidate>
                 <label for="tDocumento">Tipo de Documento</label>
-                <select name="tDocumento" id="tDocumento" required>
+                <select name="tDocumento" id="tDocumento">
                     <option value="1">TI</option>
                     <option value="2">CC</option>
                     <option value="3">CE</option>
@@ -59,46 +59,55 @@
             <div id="campoDoc">
                 <label for="nDocumento">No. Documento</label>
                 <br>
-                <input type="text" id="nDocumento" name="nDocumento" placeholder="Número de documento" required>
+                <input type="text" name="nDocumento" id="nDocumento" placeholder="Número de documento">
+                <div class="feedback"></div>
             </div>
             <br>
             <div id="campoNombre">
                 <label for="name">Nombre</label>
                 <br>
-                <input type="text" id="name" placeholder="Ingrese su nombre" required>
+                <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
+                <div class="feedback"></div>
             </div>
             <br>
             <div id="campoApellido">
                 <label for="last-name">Apellido</label>
                 <br>
-                <input type="text" id="last-name" placeholder="Ingrese su apellido" required>
+                <input type="text" name="last-name" id="last-name" placeholder="Ingrese su apellido">
+                <div class="feedback"></div>
             </div>
             <br>
             <div id="campoDeFecha">
                 <label for="date-of-birth">Fecha de Nacimiento</label>
                 <br>
-                <input type="date" id="date-of-birth" min="2002-01-01" required>
+                <input type="date" name="date-of-birth" id="date-of-birth">
+                <div class="feedback"></div>
             </div>
             <br>
             <div id="caompoEmail">
                 <label for="Email">Correo</label>
                 <br>
-                <input type="text" id="Email" placeholder="Ingrese su correo" required>
+                <input type="text" name="Email" id="Email" placeholder="Ingrese su correo">
+                <div class="feedback"></div>
             </div>
             <br>
             <div id="campoPassword">
                 <label for="password">Password</label>
                 <br>
-                <input type="password" id="password" placeholder="Ingrese su contraseña" required>
+                <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+                <div class="feedback"></div>
             </div>
             <br>
             <div id="ValidarPass">
                 <label for="confirm-password">Comprobar Password</label>
                 <br>
-                <input type="password" id="confirm-password" placeholder="Combrobar contraseña" required>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Combrobar contraseña">
+                <div class="feedback"></div>
             </div>
             <br>
 
+
+            <!-- Modal -->
             <div class="TermsandConditions">
                 <span class="closeM5">X</span>
                 <h5>Terminos Y Condiciones</h5>
@@ -110,12 +119,13 @@
             
             <div id="TandC">
                 <label for="Terms-Conditions">Aceptar Términos de uso</label>
-                <input type="checkbox" onclick="" id="Terms-Conditions" required>
+                <input type="checkbox" name="Terms-Conditions" id="Terms-Conditions">
+                <div class="feedback"></div>
             </div>
 
             <br>
             <button type="submit">Submit</button>
-            <p class="warnings" id="warnings"></p>
+            <!-- <p class="warnings" id="warnings"></p> -->
         </form>
 
     <br>
@@ -134,7 +144,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script type="text/JavaScript" src="js/reto7.js"></script>
+    <script type="text/JavaScript" src="js/validaciones.js"></script>
     
 </body>
 </html>

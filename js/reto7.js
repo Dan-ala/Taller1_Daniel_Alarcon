@@ -72,12 +72,12 @@ form.addEventListener("submit", (e) => {
   }
 
   //btn cerrar modal
-  let btnClose = document.getElementById("closeM5")
+  let btnClose = document.querySelector(".closeM5")
   //cerrar modal
-  
-btnClose.addEventListener("click",()=>{
-vModalTandC.style.display="none"
-})
-  
-})
+  btnClose.addEventListener("click",()=>{
+    vModalTandC.style.display="none"
+    })
 
+
+  
+})

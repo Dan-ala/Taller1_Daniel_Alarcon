@@ -19,11 +19,33 @@ input{
     width: 10%;
 }
 
-.warnings{
+/* .warnings{
     width:  200px;
     text-align: center;
     margin: auto;
     color: wheat;
     display: block;
     padding-top: 20px;
+} */
+
+
+/*ESTILOS PARA MIS VALIDACIONES*/
+
+.feedback{
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 0px;
+    color: whitesmoke;
+    font-size: 10px;
+        visibility: hidden; 
+        opacity: 0;
+}
+
+.success{
+    border: 2px solid lime;
+}
+
+.error{
+    border: 2px solid red;
 }
