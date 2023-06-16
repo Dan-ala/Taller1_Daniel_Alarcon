@@ -32,12 +32,12 @@ input{
 /*ESTILOS PARA MIS VALIDACIONES*/
 
 .feedback{
-    max-width: 100%;
-    width: 100%;
+    max-width: 50%;
+    width: 50%;
     background-color: rgba(255,255,255,0.5);
     padding: 0px;
     color: whitesmoke;
-    font-size: 10px;
+    font-size: 10x;
         visibility: hidden; 
         opacity: 0;
 }
