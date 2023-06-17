@@ -6,7 +6,7 @@
   label {
     width: 10%;
     background-color: rgba(0,0,0,.1);
-    border-radius: 100px;
+    border-radius: 100px; 
     position: relative;
     margin: 1.8rem 0 4rem 0;
     cursor: pointer;

@@ -1,3 +1,10 @@
+main{
+    display: flexbox;
+    position: absolute;
+    bottom: -150px;
+}
+
+
 .card1{
     align-content:center;
     justify-content: center;

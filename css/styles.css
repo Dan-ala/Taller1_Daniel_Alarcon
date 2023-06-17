@@ -27,25 +27,26 @@ header{
 }
 
 .img{
-    display: flex;
     margin-left: 25px;
     border: outset;
     color: black;
 }
 
-.nav{
-    display: flex;
-    height: 97.5vh;
-    width: 22vh;
-    margin-right: 1200px;
-    border:transparent;
-}
+#sidenav {
+    height: 70%;
+    width: 200px;
+    z-index: 1;
+    position: static;
+    top: 0;
+    bottom: 0;
+    background-color:none;
+    overflow-x: hidden;
+  }
 
 .js-image{
-    align-items: center;
-    justify-content: center;
     width: 240%;
     height: 250%;
+    margin-top: 1px;
 }
 
 .btns{
@@ -80,7 +81,7 @@ h3{
     background: transparent;
     align-items: center;
     justify-content: center;
-    margin-top: -38rem;
+    margin-top: -30rem;
     float: right;
 }
 
@@ -91,7 +92,7 @@ h3{
     background: transparent;
     align-items: center;
     justify-content: center;
-    margin-top: -38rem;
+    margin-top: -25rem;
     margin-left: 12rem;
     border:99px solid;
     border-color: #eb4b2b;

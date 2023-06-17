@@ -27,7 +27,7 @@
 
     <br>
 
-    <nav class="nav">
+    <nav id="sidenav" class="nav">
         <!-- <h1>SpaceDan</h1> -->
         <div class="btns">
             <br><br>
@@ -40,14 +40,15 @@
             <a href="reto4.html"><button class="btn1" type="submit"><h3>Reto4</h3></button></a>
             <br><br>
             <a href="reto5.html"><button class="btn1" type="submit"><h3>Reto5</h3></button></a>
-            <br><br>
-            <a href="reto6.html"><button class="btn1" type="submit"><h3>Reto6</h3></button></a>
             
         </div>
     </nav>
         
         <form class="retoForm" id="form" novalidate>
 
+            <h2>Validaciones</h2>
+
+            <div class="grupo">
                 <label for="tDocumento">Tipo de Documento</label>
                 <select name="tDocumento" id="tDocumento">
                     <option value="1">TI</option>
@@ -55,47 +56,49 @@
                     <option value="3">CE</option>
                     <option value="4">RC</option>
                 </select>
-                <br><br>
+            </div>
             <br>
-            <div id="campoDoc">
+            <div id="campoDoc" class="grupo">
                 <label for="nDocumento">No. Documento</label>
                 <input type="text" name="nDocumento" id="nDocumento" placeholder="Número de documento">
                 <div class="feedback"></div>
             </div>
 
-            <div id="campoNombre">
-                <label for="name">Nombre</labe
+            <div id="campoNombre" class="grupo">
+                <label for="name">Nombre</label>
                 <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
                 <div class="feedback"></div>
             </div>
 
-            <div id="campoApellido">
-                <label for="last-name">Apellido</label>
-                <input type="text" name="last-name" id="last-name" placeholder="Ingrese su apellido">
+            <div id="campoApellido" class="grupo">
+                <label for="last_name">Apellido</label>
+                <input type="text" name="last_name" id="last_name" placeholder="Ingrese su apellido">
                 <div class="feedback"></div>
             </div>
 
-            <div id="campoDeFecha">
+            <div id="campoDeFecha" class="grupo">
                 <label for="date-of-birth">Fecha de Nacimiento</label>
                 <input type="date" name="date-of-birth" id="date-of-birth">
                 <div class="feedback"></div>
-            </div>
-            <div id="caompoEmail">
+            </div class="grupo">
+
+            <div id="caompoEmail" class="grupo">
                 <label for="Email">Correo</label>
                 <input type="text" name="Email" id="Email" placeholder="Ingrese su correo">
                 <div class="feedback"></div>
             </div>
-            <div id="campoPassword">
+
+            <div id="campoPassword" class="grupo">
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
                 <div class="feedback"></div>
             </div>
-            <div id="ValidarPass">
+
+            <div id="ValidarPass" class="grupo">
                 <label for="confirm-password">Comprobar Password</label>
                 <input type="password" name="confirm-password" id="confirm-password" placeholder="Combrobar contraseña">
                 <div class="feedback"></div>
             </div>
-
 
             <!-- Modal -->
             <div class="TermsandConditions">
@@ -103,11 +106,10 @@
                 <h5>Terminos Y Condiciones</h5>
                 <br>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus? Numquam, autem pariatur ipsam beatae eum impedit nulla molestiae quas repudiandae? Sapiente fugit, earum omnis tempora quisquam quam beatae a.</p>
-                <button id="Accept" ">Accept</button>
-                <b
+                <button id="Accept">Accept</button>
             </div>
             
-            <div id="TandC">
+            <div id="TandC" class="grupo">
                 <label for="Terms-Conditions">Aceptar Términos de uso</label>
                 <input type="checkbox" name="Terms-Conditions" id="Terms-Conditions">
                 <div class="feedback"></div>

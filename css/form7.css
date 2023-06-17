@@ -1,51 +1,91 @@
 /*FORM - reto7*/
-.retoForm{
-    border: solid 1px;
-    border-color: yellow;
-    margin-top: -45rem;
-    margin-left: 20rem;
-    width: 400px;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.382);
-    color: aliceblue;
-    position: relative;
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+    margin-top: -470px;
+    margin-left: 430px;
+    background: whitesmoke;
 }
 
+.retoForm{
+    border: 1px solid yellow;
+    max-width: 100%;
+    width: 400px;
+    text-align: left;
+}
+
+
+
+/*estilos de los divs*/
+:root{
+    --color: blue;
+}
+
+
+
+.grupo{
+    position: relative;
+    width: 200px;
+}
+
+.grupo input{
+    width: 105%;
+    border: 1px solid --color;
+    background: orange;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+}
+
+
+
+
+label{
+    color: black;
+    pointer-events: none;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+
 input{
-    width: 50%;
+    width: 100%;
+    border: none;
+    border-bottom: 2 solid lightblue;
+}
+
+.grupo input:focus ~ label{
+    color: aqua;
+    transform: translateX(10px) translateY(-7px);
 }
 
 #Terms-Conditions{
-    width: 10%;
+    width: 25px;
+    float: left;
+    margin-top: 5px;
 }
-
-/* .warnings{
-    width:  200px;
-    text-align: center;
-    margin: auto;
-    color: wheat;
-    display: block;
-    padding-top: 20px;
-} */
 
 
 /*ESTILOS PARA MIS VALIDACIONES*/
 
 .feedback{
-    max-width: 50%;
-    width: 50%;
+    max-width: 105%;
+    width: 105%;
     background-color: rgba(255,255,255,0.5);
-    padding: 0px;
-    color: whitesmoke;
-    font-size: 10x;
+    color: black;
+    font-size: 9px;
         visibility: hidden; 
         opacity: 0;
 }
 
 .success{
-    border: 2px solid lime;
+    border: 3px solid lime;
 }
 
 .error{
-    border: 2px solid red;
+    border: 3px solid red;
 }

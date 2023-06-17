@@ -1,42 +1,42 @@
-.formulario{
-align-content: right;
-justify-content: right;
+.formulario{    
+    display:flex;
 border: solid 1px;
 border-color: yellow;
 background-color: aqua;
-margin-top: -38.5rem;
+margin-top: -18rem;
 margin-left: 20rem;
 width: 400px;
 float: left;
 }
 
 .formulario_r4{
-    align-content: right;
-    justify-content: right;
     border: solid 1px;
     border-color: yellow;
-    background-color: aqua;
-    margin-top: -38.5rem;
+    background-color: whitesmoke;
+    margin-top: -22rem;
     margin-left: 20rem;
     width: 650px;
     float: left;
+    color: black    ;
 }
 
 .formulario_r5{
-    margin: 0;
-    padding: 0;
-    align-content: right;
-    justify-content: right;
     border: solid 1px;
     border-color: yellow;
     background-color: aqua;
-    margin-top: -38.5rem;
+    margin-top: -18rem;
     margin-left: 20rem;
     width: 520px;
     float: left;
     background-color: rgba(0, 0, 0, 0.382);
     color: white;
 }
+
+
+.auto-type3{
+    font-size: 50px;
+}
+
 
 .ojo,.opc{
 align-content: right;
