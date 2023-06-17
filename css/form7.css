@@ -58,10 +58,10 @@ input{
     border-bottom: 2 solid lightblue;
 }
 
-.grupo input:focus ~ label{
+/* .grupo input:focus ~ label{
     color: aqua;
     transform: translateX(10px) translateY(-7px);
-}
+} */
 
 #Terms-Conditions{
     width: 25px;
@@ -73,9 +73,9 @@ input{
 /*ESTILOS PARA MIS VALIDACIONES*/
 
 .feedback{
-    max-width: 105%;
+    max-width: 100%;
     width: 105%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: red;
     color: black;
     font-size: 9px;
         visibility: hidden; 

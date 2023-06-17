@@ -2,9 +2,12 @@
 const number=/^[0-9]{5,10}$/
 const textName=/^[a-zA-ZñÑá-úÁ-Ú ]{3,50}$/
 const textApellido=/^[a-zA-ZñÑá-úÁ-Ú ]{3,50}$/
-const date_of_birth=/^\d{2002,2100}$/
+const dateOfBirth=/^\d{2002,2100}$/
 
-let flag,flag2,flag3,flag4
+let flag
+let flag2
+let flag3
+let flag4
 
 //Acceder a los elementos que se van a estar validando
 const form=document.getElementById("form")
@@ -14,7 +17,7 @@ const form=document.getElementById("form")
 const nDocumento=form.nDocumento.value //Estoy accediendo por el valor
 const name=form.name.value
 const apellido=form.last_name.value
-const dateOfB=form.date_of_birth.value
+const date_of_birth=form.date_of_birth.value
 
 
 
@@ -93,7 +96,7 @@ form.last_name.addEventListener("input",e=>{
 
 //FECHA DE NACIMIENTO
 form.date_of_birth.addEventListener("input",e=>{
-    if (date_of_birth.test(e.target.value)) {
+    if (dateOfBirth.test(e.target.value)) {
         form.date_of_birth.setAttribute("class","successs")
         f4.textContent='Ojo para digitar su fecha de nacimiento, debe ser mayor de edad'
         f4.style.setProperty("visibility","hidden")
@@ -152,7 +155,7 @@ form.addEventListener("submit",e=>{
     }else if(form.date_of_birth.value==null || form.date_of_birth.value==0 || flag4==false){
         alert('Debe ser mayor de edad')
         form.date_of_birth.focus()
-        form.setAttribute('class','error')
+        form.setAttribute("class","error")
     }else{
         form.submit()
     }
