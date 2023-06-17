@@ -92,7 +92,7 @@ form.last_name.addEventListener("input",e=>{
 
 
 //FECHA DE NACIMIENTO
-form.dateOfB.addEventListener("input",()=>{
+form.date_of_birth.addEventListener("input",e=>{
     if (date_of_birth.test(e.target.value)) {
         form.date_of_birth.setAttribute("class","successs")
         f4.textContent='Ojo para digitar su fecha de nacimiento, debe ser mayor de edad'
@@ -148,10 +148,10 @@ form.addEventListener("submit",e=>{
     }else if(form.last_name.value==null || form.last_name.value==0 || flag3==false){
         alert('Debe ingresar bien su apellido')
         form.last_name.focus()
-        form.setAttribute('class','error')
-    }else if(form.dateOfB.value==null || form.dateOfB.value==0 || flag4==false){
+        form.setAttribute("class","error")
+    }else if(form.date_of_birth.value==null || form.date_of_birth.value==0 || flag4==false){
         alert('Debe ser mayor de edad')
-        form.dateOfB.focus()
+        form.date_of_birth.focus()
         form.setAttribute('class','error')
     }else{
         form.submit()
