@@ -9,9 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
 
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/footer.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>JS Daniel Alarcón</title>
@@ -20,7 +19,7 @@
 
     <header>
         <a href="index.html"><img class="img" src="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg" alt="Spacecraft" width="100"></a>
-        <h2 class="header-text">Reto1</h2>
+        <h2 class="header-text"><span class="auto-type"></span></h2>
     </header>
 
     <br>
@@ -28,6 +27,8 @@
     <nav class="nav">
         <!-- <h1>SpaceDan</h1> -->
         <div class="btns">
+            <br><br>
+            <a href="reto1.html"><button class="btn1" type="submit"><h3>Reto1</h3></button></a>
             <br><br>
             <a href="reto2.html"><button class="btn1" type="submit"><h3>Reto2</h3></button></a>
             <br><br>
@@ -42,28 +43,17 @@
             <a href="reto7.html"><button class="btn1" type="submit"><h3>Reto7</h3></button></a>
         </div>
     </nav>
-        
-        <form class="formulario">
 
-            <label for="word">Palabra</label>
-            <input id="word" name="word"
-            placeholder="Ingrese una Palabra">
-            
-                <br><br>
+    <main>
+        <aside class="aside1">
+            <h2>Hi there! <span class="auto-type"></span></h2>
+        </aside>
 
-                <h6>Seleccione una opcion:</h6>
-                <select id="op">
-                    <option value="1">Longitud de la palabra</option>
-                    <option value="2">La palabra convertida en mayúsculas</option>
-                    <option value="3">La palabra convertida en minúsculas</option>
-                    <option value="4">El primer carácter de la palabra</option>
-            </select>
-    
-            <br><br>
-    
-            <button id="btnWord" onclick="Word(event)">Enviar</button>
-        </form>
 
+        <aside class="aside2">
+            <img class="js-image" src="https://images.idgesg.net/images/article/2022/04/javascript-iw-badge-100923558-large.jpg?auto=webp&quality=85,70" alt="js image">
+        </aside>
+    </main>
 
     <br>
 
@@ -83,8 +73,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script type="text/JavaScript" src="js/auto_type.js"></script>
-    <script type="text/JavaScript" src="js/reto1.js"></script>
+    <script type="text/JavaScript" src="/js/auto_type.js"></script>
     
 </body>
 </html>
