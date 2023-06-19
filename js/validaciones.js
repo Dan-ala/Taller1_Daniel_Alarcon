@@ -2,12 +2,10 @@
 const number=/^[0-9]{5,10}$/
 const textName=/^[a-zA-ZñÑá-úÁ-Ú ]{3,50}$/
 const textApellido=/^[a-zA-ZñÑá-úÁ-Ú ]{3,50}$/
-const dateOfBirth=/^\d{2002,2100}$/
+const dateOfBirth=[2000|(2-9)]
+const mail=/(@misena.edu.co)/
 
-let flag
-let flag2
-let flag3
-let flag4
+let flag,flag2,flag3,flag4,flag5
 
 //Acceder a los elementos que se van a estar validando
 const form=document.getElementById("form")
@@ -16,8 +14,9 @@ const form=document.getElementById("form")
 //VARIABLES PARA ACCEDER A SUS VALORES
 const nDocumento=form.nDocumento.value //Estoy accediendo por el valor
 const name=form.name.value
-const apellido=form.last_name.value
+const last_name=form.last_name.value
 const date_of_birth=form.date_of_birth.value
+const email=form.Email.value
 
 
 
@@ -26,6 +25,7 @@ const f1=document.querySelector("#campoDoc .feedback")
 const f2=document.querySelector("#campoNombre .feedback")
 const f3=document.querySelector("#campoApellido .feedback")
 const f4=document.querySelector("#campoDeFecha .feedback")
+const f5=document.querySelector("#campoEmail .feedback")
 
 
 
@@ -104,13 +104,30 @@ form.date_of_birth.addEventListener("input",e=>{
         flag4=true
     }else{
         form.date_of_birth.setAttribute("class","error")
-        f4.textContent='Ojo para digitar su fecha de nacimiento, debe ser mayor de edad'
+        f4.textContent='Ojo para digitar su fecha de nacimiento, debe ser mayor al año 2002'
         f4.style.setProperty("visibility","visible")
         f4.style.setProperty("opacity","1")
         flag4=false
     }
 })
 
+
+//EMAIL
+form.Email.addEventListener("input",e=>{
+    if (mail.test(e.target.value)) {
+        form.Email.setAttribute("class","success")
+        f5.textContent='Solamente se permite el dominio @misena.edu.co'
+        f5.style.setProperty("visibility","hidden")
+        f5.style.setProperty("opacity","0")
+        flag5=true
+    }else{
+        form.Email.setAttribute("class","error")
+        f5.textContents='Solamente se permite el dominio @misena.edu.co'
+        f5.style.setProperty("visibility","visible")
+        f5.style.setProperty("opacity","1")
+        flag5=false
+    }
+})
 
 
 
@@ -156,7 +173,16 @@ form.addEventListener("submit",e=>{
         alert('Debe ser mayor de edad')
         form.date_of_birth.focus()
         form.setAttribute("class","error")
-    }else{
+    }else if(form.Email.value==null || form.Email.value==0 || flag5==false){
+        alert('El dominio no es correcto')
+        form.Email.focus()
+        form.setAttribute("class","error")
+    }
+    
+    
+    
+    
+    else{
         form.submit()
     }
 })

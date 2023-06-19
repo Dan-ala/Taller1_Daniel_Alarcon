@@ -58,10 +58,10 @@ input{
     border-bottom: 2 solid lightblue;
 }
 
-/* .grupo input:focus ~ label{
+.grupo input:focus ~ label{
     color: aqua;
     transform: translateX(10px) translateY(-7px);
-} */
+}
 
 #Terms-Conditions{
     width: 25px;
