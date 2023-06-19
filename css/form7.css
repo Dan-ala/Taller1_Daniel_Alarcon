@@ -89,3 +89,18 @@ input{
 .error{
     border: 3px solid red;
 }
+
+
+.strength_meter{
+    height: 2.rem;
+    width: 9%;
+    border: 3px solid blue;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.reasons>*{
+    margin-top: 1.5rem;
+    color: red;
+
+}

@@ -2,7 +2,7 @@
 const number=/^[0-9]{5,10}$/
 const textName=/^[a-zA-ZñÑá-úÁ-Ú ]{3,50}$/
 const textApellido=/^[a-zA-ZñÑá-úÁ-Ú ]{3,50}$/
-const dateOfBirth=[2000|(2-9)]
+const fechaLimite = new Date("01-01-2002")
 const mail=/(@misena.edu.co)/
 
 let flag,flag2,flag3,flag4,flag5
@@ -15,7 +15,6 @@ const form=document.getElementById("form")
 const nDocumento=form.nDocumento.value //Estoy accediendo por el valor
 const name=form.name.value
 const last_name=form.last_name.value
-const date_of_birth=form.date_of_birth.value
 const email=form.Email.value
 
 
@@ -93,11 +92,20 @@ form.last_name.addEventListener("input",e=>{
     }
 })
 
+const date_of_birth = document.getElementById("date_of_birth")
 
 //FECHA DE NACIMIENTO
-form.date_of_birth.addEventListener("input",e=>{
-    if (dateOfBirth.test(e.target.value)) {
-        form.date_of_birth.setAttribute("class","successs")
+form.date_of_birth.addEventListener("change",e=>{
+
+    const fechaIngresada = document.querySelector('#date_of_birth').value;
+    const parseIntoDate = new Date(fechaIngresada);
+    console.log(parseIntoDate)
+  
+    console.log(fechaLimite)
+
+
+    if (parseIntoDate<fechaLimite) {
+        form.date_of_birth.setAttribute("class","success")
         f4.textContent='Ojo para digitar su fecha de nacimiento, debe ser mayor de edad'
         f4.style.setProperty("visibility","hidden")
         f4.style.setProperty("opacity","0")
