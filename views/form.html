@@ -94,26 +94,30 @@
                 <div class="feedback"></div>
             </div>
 
-            <div id="ValidarPass" class="grupo">
-                <label for="confirm-password">Comprobar Password</label>
-                <input type="password" name="confirm-password" id="confirm-password" placeholder="Combrobar contraseña">
+            <div id="validarPass" class="grupo">
+                <label for="confirm_password">Comprobar Password</label>
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="Combrobar contraseña">
                 <div class="feedback"></div>
             </div>
 
             <!-- Modal -->
-            <div class="TermsandConditions">
-                <span class="closeM5">X</span>
-                <h5>Terminos Y Condiciones</h5>
-                <br>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus? Numquam, autem pariatur ipsam beatae eum impedit nulla molestiae quas repudiandae? Sapiente fugit, earum omnis tempora quisquam quam beatae a.</p>
-                <button id="Accept">Accept</button>
+            <div>
+                <div id="TandC" class="grupo">
+                    <label for="Terms-Conditions">Aceptar Términos de uso</label>
+                    <input type="checkbox" name="Terms-Conditions" id="Terms-Conditions">
+                    <div class="feedback"></div>
+                </div>
+                <div class="TermsandConditions">
+                    <span class="closeM5">X</span>
+                    <h5>Terminos Y Condiciones</h5>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus? Numquam, autem pariatur ipsam beatae eum impedit nulla molestiae quas repudiandae? Sapiente fugit, earum omnis tempora quisquam quam beatae a.</p>
+                    <button id="Accept" onclick="aceptar()">Accept</button>
+                </div>
             </div>
             
-            <div id="TandC" class="grupo">
-                <label for="Terms-Conditions">Aceptar Términos de uso</label>
-                <input type="checkbox" name="Terms-Conditions" id="Terms-Conditions">
-                <div class="feedback"></div>
-            </div>
+            
+            
 
             <br>
             <button type="submit">Submit</button>
@@ -137,6 +141,7 @@
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script type="text/JavaScript" src="/js/validaciones.js"></script>
+    <script type="text/JavaScript" src="/js/ventanaModalT&C.js"></script>
     
 </body>
 </html>
