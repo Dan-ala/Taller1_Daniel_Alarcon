@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsla(0, 85%, 35%, 0.197);
+    color:white;
+    width: 24%;
+    height: 22rem;
+    margin-top: 3.88%;
+}
+
+.form_reto5{
+    border: 3px solid  #900C3F;
+    border-radius: 7px;
+}
+
+#names, #last-name, #activities{
+    max-width: 100%;
+}
+
+/*Estos son los párrafos, hay 4*/
+
+.p1{
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.p2, .p3, .p4{
+    margin-top: 25px;
+}
+
+/*botón de enviar*/
+#c{
+    margin-top: 18px;
+}

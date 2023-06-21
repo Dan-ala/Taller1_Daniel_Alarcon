@@ -53,7 +53,7 @@ function dragStart(event) {
 //e6
 document.getElementById("inTest2").addEventListener("inTest2",e6)
 function e6(inTest2) {
-    inTest2.style.background = "red";
+    inTest2.style.background = " #900C3F";
 }
 
 //e7
@@ -68,7 +68,7 @@ document.getElementById(
   }
 //e8
 function e8() {
-    alert('Welcome again!')
+    alert('One key is being pressed!')
 }
 //e9
 document.getElementById(
@@ -89,8 +89,24 @@ document.getElementById(
         "test4").innerHTML = "Button Released.";
   }
 //e10
-document.getElementById("bd").addEventListener("onunload", e10)
+const div_of_the_event = document.getElementById("myDiv")
 
-function e10(){
-    confirm('Are you sure u wanna leave?')
+function e10() {
+  div_of_the_event.style.animation = "mymove 4s 2";
+
+
+//Aquí es donde inicia la animación
+div_of_the_event.addEventListener("animationstart",()=>{
+  div_of_the_event.innerHTML= "The animation has started";
+  div_of_the_event.style.background="pink"
+})
+
+div_of_the_event.addEventListener("animationiteration",()=>{
+  div_of_the_event.innerHTML= "The animation was played again";
+  div_of_the_event.style.background="lightblue"
+})
+div_of_the_event.addEventListener("animationend",()=>{
+  div_of_the_event.innerHTML = "The animation has completed";
+  div_of_the_event.style.backgroundColor = "lightgray";
+})
 }

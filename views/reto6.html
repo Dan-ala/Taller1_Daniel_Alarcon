@@ -24,192 +24,143 @@
     <header>
         <a href="index.html"><img class="img" src="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg" alt="Spacecraft" width="100"></a>
         <h2 class="header-text"><span class="auto-type3">Reto 6 Perímetro y Área</span></h2>
-
-
-        <!-- <input id="switch" type="checkbox">
-<div class="app">
-  <div class="body">
-    <div class="phone">
-      </div>
-
-        <label for="switch">
-          <div class="toggle"></div>
-          <div class="names">
-            <p class="light">Light</p>
-            <p class="dark">Dark</p>
-          </div>
-        </label>
-        
-       
-      </div>
-      
-    </div>
-  </div>
-  
-</div> -->
-
-
     </header>
 
-    <br>
-
-    <nav class="nav">
-        <!-- <h1>SpaceDan</h1> -->
-        <div class="btns">
-            <br><br>
-            <a href="reto1.html"><button class="btn1" type="submit"><h3>Reto1</h3></button></a>
-            <br><br>
-            <a href="reto2.html"><button class="btn1" type="submit"><h3>Reto2</h3></button></a>
-            <br><br>
-            <a href="reto3.html"><button class="btn1" type="submit"><h3>Reto3</h3></button></a>
-            <br><br>
-            <a href="reto4.html"><button class="btn1" type="submit"><h3>Reto4</h3></button></a>
-            <br><br>
-            <a href="reto5.html"><button class="btn1" type="submit"><h3>Reto5</h3></button></a>
-            <br><br>
-            <a href="form.html"><button class="btn1" type="submit"><h3>Reto7</h3></button></a>
-        </div>
-    </nav>
-
-    <main>
-
-        <div class="cardIni1">
-            <h2 class="Cir">CIRCULO</h2>
-            <div class="circle"></div>
-
+    <div class="principal">
+        <nav id="sidenav">
+            <!-- <h1>SpaceDan</h1> -->
+            <div class="btns">
+                <a href="reto1.html"><button class="btn1" type="submit">
+                        <h3>Reto1</h3>
+                    </button></a>
+                <a href="reto2.html"><button class="btn1" type="submit">
+                        <h3>Reto2</h3>
+                    </button></a>
+                <a href="reto3.html"><button class="btn1" type="submit">
+                        <h3>Reto3</h3>
+                    </button></a>
+                <a href="reto4.html"><button class="btn1" type="submit">
+                        <h3>Reto4</h3>
+                    </button></a>
+                <a href="reto5.html"><button class="btn1" type="submit">
+                        <h3>Reto5</h3>
+                    </button></a>
+                <a href="form.html"><button class="btn1" type="submit">
+                        <h3>Reto7</h3>
+                    </button></a>
+            </div>
+        </nav>
+    
+        <main>
+    
+            <div class="cardIni1">
+                <h2 class="Cir">CIRCULO</h2>
+                <div class="circle"></div>
+    
                 <button id="btnCard1Per">Perímetro</button></a>
                 <button id="btnCard1Area">Área</button></a>
-        </div>
-
-        <div class="card1">
-            <span class="closeM">X</span>
-            <h5>Calcular Perímetro</h5>
-            <br>
-            <input id="radioC" type="text" placeholder="Radio del círculo">
-            <button id="btnCalcRadioC" onclick="perC(event)">Calcular</button>
-            <br><br>
-            <h5 id="r1">Resultado</h5>
-        </div>
-        <!-- Este es el modal del área -->
-        <div class="cardArea1">
-            <span class="closeMArea">X</span>
-            <h5>Calcular Area</h5>
-            <br>
-            <input id="r1" type="text" placeholder="Radio del circulo">
-            <br><br>
-            <button id="btnCalcAreaC" onclick="areaC(event)">Calcular</button>
-            <br><br>
-            <h5 id="r11">Resultado</h5>
-        </div>
-
-
-
-        <div class="cardIni2">
-            <h2 class="tri">TRIANGULO</h2>
-            <div class="triangle"></div>
-            
-            <button id="btnCard2Per">Perímetro</button></a>
-            <button id="btnCard2Area">Área</button></a>
-        </div>
+            </div>
+    
+            <div class="card1">
+                <span class="closeM">X</span>
+                <h5>Calcular Perímetro</h5>
+                <input id="radioC" type="text" placeholder="Radio del círculo">
+                <button id="btnCalcRadioC" onclick="perC(event)">Calcular</button>
+                <h5 id="r1">Resultado</h5>
+            </div>
+            <!-- Este es el modal del área -->
+            <div class="cardArea1">
+                <span class="closeMArea">X</span>
+                <h5>Calcular Area</h5>
+                <input id="r1" type="text" placeholder="Radio del circulo">
+                <button id="btnCalcAreaC" onclick="areaC(event)">Calcular</button>
+                <h5 id="r11">Resultado</h5>
+            </div>
+    
+    
+    
+            <div class="cardIni2">
+                <h2 class="tri">TRIANGULO</h2>
+                <div class="triangle"></div>
+    
+                <button id="btnCard2Per">Perímetro</button></a>
+                <button id="btnCard2Area">Área</button></a>
+            </div>
             <div class="card2">
                 <span class="closeM2">X</span>
                 <h5>Calcular Perímetro</h5>
-                <br>
                 <input id="LadoA" type="text" placeholder="Lado a del triangulo">
-                <br><br>
                 <input id="LadoB" type="text" placeholder="Lado b del triangulo">
-                <br><br>
                 <input id="LadoC" type="text" placeholder="Lado c del triangulo">
                 <button id="btnCalcRadioT" onclick="perT(event)">Calcular</button>
-                <br><br>
                 <h5 id="pT">Resultado</h5>
             </div>
             <!--Este es el modal del área del Triángulo-->
             <div class="cardArea2">
                 <span class="closeM22">X</span>
                 <h5>Calcular Area</h5>
-                <br>
                 <input id="base" type="text" placeholder="Base del triángulo">
-                <br><br>
                 <input id="altura" type="text" placeholder="Altura(h) del triángulo">
-                <br><br>
                 <button id="btnCalcAreaT" onclick="areaT(event)">Calcular</button>
-                <br><br>
                 <h5 id="AT">Resultado</h5>
             </div>
-
-
+    
+    
             <div class="cardIni3">
                 <h2 class="rect">RECTANGULO</h2>
                 <div class="rectangulo"></div>
                 <button id="btnCard3Per">Perímetro</button>
                 <button id="btnCard3Area">Área</button>
             </div>
-
-                <div class="card3">
-                    <span class="closeM3">X</span>
-                    <h5>Calcular el Perímetro</h5>
-                    <br>
-                    <input id="baseRectangulo" type="text" placeholder="Base del rectángulo">
-                    <br><br>
-                    <input id="alturaRectangulo" type="text" placeholder="Altura del rectángulo">
-                    <br><br>
-                    <button id="btnCaclcPerRect" onclick="perR(event)">Calcular</button>
-                    <br><br>
-                    <h5 id="pR">Resultado</h5>
-                </div>
-                <!--Este es el model del área del rectángulo-->
-                <div class="cardArea3">
-                    <span class="closeM33">X</span>
-                    <h5>Calcular el Área</h5>
-                    <br>
-                    <input id="baseRectangulo2" type="text" placeholder="Base del rectángulo">
-                    <br><br>
-                    <input id="alturaRectangulo2" type="text" placeholder="Altura del rectángulo">
-                    <br><br>
-                    <button id="btnCaclcAreaRect" onclick="AreaR(event)">Calcular</button>
-                    <br><br>
-                    <h5 id="aR">Resultado</h5>
-                </div>
-
-
-
-
-                <div class="cardIni4">
-                    <h2 class="cuad">CUADRADO</h2>
-                    <div class="cuadrado"></div>
-                    <button id="btnCard4Per">Perímetro</button>
-                    <button id="btnCard4Area">Área</button>
-                </div>
-
-                    <div class="card4">
-                        <span class="closeM4">X</span>
-                        <h5>Calcular el Perímetro</h5>
-                        <br>
-                        <input id="baseCuadrado" type="text" placeholder="Base del cuadrado">
-                        <br><br>
-                        <input id="alturaCuadrado" type="text" placeholder="Altura del cuadrado">
-                        <br><br>
-                        <button id="btnCalcpCuad" onclick="pCuadrado(event)">Calcular</button>
-                        <br><br>
-                        <h5 id="pCuadrado">Resultado</h5>
-                    </div>
-                    <!--Este es la ventana modal del área del cuadrado-->
-                    <div class="cardArea4">
-                        <span class="closeM44">X</span>
-                        <h5>Calcular el área</h5>
-                        <br>
-                        <input id="baseCuadrado2" type="text" placeholder="Base del cuadrado">
-                        <br><br>
-                        <input id="alturaCuadrado2" type="text" placeholder="Altura del cuadrado">
-                        <br><br>
-                        <button id="btn1CalcaCuad" onclick="aCuadrado(event)">Calcular</button>
-                        <br><br>
-                        <h5 id="aCuadrado">Resultado</h5>
-                    </div>
-    </main>
-
-    <br>
+    
+            <div class="card3">
+                <span class="closeM3">X</span>
+                <h5>Calcular el Perímetro</h5>
+                <input id="baseRectangulo" type="text" placeholder="Base del rectángulo">
+                <input id="alturaRectangulo" type="text" placeholder="Altura del rectángulo">
+                <button id="btnCaclcPerRect" onclick="perR(event)">Calcular</button>
+                <h5 id="pR">Resultado</h5>
+            </div>
+            <!--Este es el model del área del rectángulo-->
+            <div class="cardArea3">
+                <span class="closeM33">X</span>
+                <h5>Calcular el Área</h5>
+                <input id="baseRectangulo2" type="text" placeholder="Base del rectángulo">
+                <input id="alturaRectangulo2" type="text" placeholder="Altura del rectángulo">
+                <button id="btnCaclcAreaRect" onclick="AreaR(event)">Calcular</button>
+                <h5 id="aR">Resultado</h5>
+            </div>
+    
+    
+    
+    
+            <div class="cardIni4">
+                <h2 class="cuad">CUADRADO</h2>
+                <div class="cuadrado"></div>
+                <button id="btnCard4Per">Perímetro</button>
+                <button id="btnCard4Area">Área</button>
+            </div>
+    
+            <div class="card4">
+                <span class="closeM4">X</span>
+                <h5>Calcular el Perímetro</h5>
+                <input id="baseCuadrado" type="text" placeholder="Base del cuadrado">
+                <input id="alturaCuadrado" type="text" placeholder="Altura del cuadrado">
+                <button id="btnCalcpCuad" onclick="pCuadrado(event)">Calcular</button>
+                <h5 id="pCuadrado">Resultado</h5>
+            </div>
+            <!--Este es la ventana modal del área del cuadrado-->
+            <div class="cardArea4">
+                <span class="closeM44">X</span>
+                <h5>Calcular el área</h5>
+                <input id="baseCuadrado2" type="text" placeholder="Base del cuadrado">
+                <input id="alturaCuadrado2" type="text" placeholder="Altura del cuadrado">
+                <button id="btn1CalcaCuad" onclick="aCuadrado(event)">Calcular</button>
+                <h5 id="aCuadrado">Resultado</h5>
+            </div>
+        </main>
+    
+    </div>
 
     <footer>
         <img class="logo" src="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg" alt="Spacecraft" width="100">

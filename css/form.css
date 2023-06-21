@@ -1,26 +1,47 @@
-.formulario{    
-    display:flex;
-border: solid 1px;
-border-color: yellow;
-background-color: aqua;
-margin-top: -18rem;
-margin-left: 20rem;
-width: 400px;
-float: left;
+/*Estilos del reto1 - para su formulario*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsla(0, 85%, 35%, 0.197);
+    color:white;
+    width: 15%;
+    height: 15rem;
+    margin-top: 3.88%;
 }
 
-.formulario_r4{
-    border: solid 1px;
-    border-color: yellow;
-    background-color: whitesmoke;
-    margin-top: -22rem;
-    margin-left: 20rem;
-    width: 650px;
-    float: left;
-    color: black    ;
+.formulario{
+    border: 3px solid  #900C3F;
+    border-radius: 7px;
 }
 
-.formulario_r5{
+/*estilos del select del reto 1*/
+#op{
+    display: flex;
+    width: 170px;
+    margin-top: -10px;
+}
+
+#word{
+    width: 170px;
+    margin-top: 5px;
+}
+
+.p{
+    margin-top: 25px;
+}
+
+
+.label_palabra {
+    font-size: 20px;
+    text-align: center;
+}
+
+#btnWord{
+    margin-top: 45px;
+}
+
+/* .formulario_r5{
     border: solid 1px;
     border-color: yellow;
     background-color: aqua;
@@ -30,41 +51,4 @@ float: left;
     float: left;
     background-color: rgba(0, 0, 0, 0.382);
     color: white;
-}
-
-
-.auto-type3{
-    font-size: 50px;
-}
-
-
-.ojo,.opc{
-align-content: right;
-justify-content: right;
-float: right;
-margin-top: -77px;
-}
-
-.ojo2{
-    display:flexbox;
-    align-content:center;
-    justify-content: center;
-    float: right;
-    margin-top: -77px;
-    margin-right: 320px;
-}
-
-.ojo3{
-    display: flexbox;
-        align-content:center;
-        justify-content: center;
-        float: right;
-        margin-top: -77px;
-        margin-right: 30px;
-}
-
-#btnFormas{
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
+}*/

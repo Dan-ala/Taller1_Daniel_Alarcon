@@ -25,102 +25,109 @@
         <h2 class="header-text">Reto7</h2>
     </header>
 
-    <br>
-
-    <nav id="sidenav" class="nav">
-        <!-- <h1>SpaceDan</h1> -->
-        <div class="btns">
-            <br><br>
-            <a href="reto1.html"><button class="btn1" type="submit"><h3>Reto1</h3></button></a>
-            <br><br>
-            <a href="reto2.html"><button class="btn1" type="submit"><h3>Reto2</h3></button></a>
-            <br><br>
-            <a href="reto3.html"><button class="btn1" type="submit"><h3>Reto3</h3></button></a>
-            <br><br>
-            <a href="reto4.html"><button class="btn1" type="submit"><h3>Reto4</h3></button></a>
-            <br><br>
-            <a href="reto5.html"><button class="btn1" type="submit"><h3>Reto5</h3></button></a>
-            
-        </div>
-    </nav>
-        
-        <form class="retoForm" id="form" novalidate>
-
-            <h2>Validaciones</h2>
-
-            <div class="grupo">
-                <label for="tDocumento">Tipo de Documento</label>
-                <select name="tDocumento" id="tDocumento">
-                    <option value="1">TI</option>
-                    <option value="2">CC</option>
-                    <option value="3">CE</option>
-                    <option value="4">RC</option>
-                </select>
+    <div class="principal">
+        <nav id="sidenav">
+            <!-- <h1>SpaceDan</h1> -->
+            <div class="btns">
+                <a href="reto1.html"><button class="btn1" type="submit">
+                        <h3>Reto1</h3>
+                    </button></a>
+                <a href="reto2.html"><button class="btn1" type="submit">
+                        <h3>Reto2</h3>
+                    </button></a>
+                <a href="reto3.html"><button class="btn1" type="submit">
+                        <h3>Reto3</h3>
+                    </button></a>
+                <a href="reto4.html"><button class="btn1" type="submit">
+                        <h3>Reto4</h3>
+                    </button></a>
+                    <a href="reto5.html"><button class="btn1" type="submit">
+                        <h3>Reto5</h3>
+                    </button></a>
+                <a href="reto6.html"><button class="btn1" type="submit">
+                        <h3>Reto6</h3>
+                    </button></a>
             </div>
-            <br>
-            <div id="campoDoc" class="grupo">
-                <label for="nDocumento">No. Documento</label>
-                <input type="text" name="nDocumento" id="nDocumento" placeholder="Número de documento">
-                <div class="feedback"></div>
-            </div>
-
-            <div id="campoNombre" class="grupo">
-                <label for="name">Nombre</label>
-                <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
-                <div class="feedback"></div>
-            </div>
-
-            <div id="campoApellido" class="grupo">
-                <label for="last_name">Apellido</label>
-                <input type="text" name="last_name" id="last_name" placeholder="Ingrese su apellido">
-                <div class="feedback"></div>
-            </div>
-
-            <div id="campoDeFecha" class="grupo">
-                <label for="date_of_birth">Fecha de Nacimiento</label>
-                <input type="date" name="date_of_birth" id="date_of_birth">
-                <div class="feedback"></div>
-            </div>
-
-            <div id="campoEmail" class="grupo">
-                <label for="Email">Correo</label>
-                <input type="text" name="Email" id="Email" placeholder="Ingrese su correo">
-                <div class="feedback"></div>
-            </div>
-
-            <div id="campoPassword" class="grupo">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
-                <div class="feedback"></div>
-            </div>
-
-            <div id="validarPass" class="grupo">
-                <label for="confirm_password">Comprobar Password</label>
-                <input type="password" name="confirm_password" id="confirm_password" placeholder="Combrobar contraseña">
-                <div class="feedback"></div>
-            </div>
-
-            <!-- Modal -->
-            <div>
-                <div id="TandC" class="grupo">
-                    <label for="Terms-Conditions">Aceptar Términos de uso</label>
-                    <input type="checkbox" name="Terms-Conditions" id="Terms-Conditions">
+        </nav>
+    
+        <main class="imagenes">
+            <form class="retoForm" id="form" novalidate>
+    
+                <h2>Validaciones</h2>
+    
+                <div class="grupo">
+                    <label for="tDocumento">Tipo de Documento</label>
+                    <select name="tDocumento" id="tDocumento">
+                        <option value="1">TI</option>
+                        <option value="2">CC</option>
+                        <option value="3">CE</option>
+                        <option value="4">RC</option>
+                    </select>
+                </div>
+    
+                <div id="campoDoc" class="grupo">
+                    <label for="nDocumento">No. Documento</label>
+                    <input type="text" name="nDocumento" id="nDocumento" placeholder="Número de documento">
                     <div class="feedback"></div>
                 </div>
-                <div class="TermsandConditions">
-                    <span class="closeM5">X</span>
-                    <h5>Terminos Y Condiciones</h5>
-                    <br>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus? Numquam, autem pariatur ipsam beatae eum impedit nulla molestiae quas repudiandae? Sapiente fugit, earum omnis tempora quisquam quam beatae a.</p>
-                    <button type="button" id="Accept" onclick="aceptar()">Accept</button>
+    
+                <div id="campoNombre" class="grupo">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
+                    <div class="feedback"></div>
                 </div>
-            </div>
-            
-            <br>
-            <button type="submit" id="btnSubmit">Submit</button>
-        </form>
-
-    <br>
+    
+                <div id="campoApellido" class="grupo">
+                    <label for="last_name">Apellido</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Ingrese su apellido">
+                    <div class="feedback"></div>
+                </div>
+    
+                <div id="campoDeFecha" class="grupo">
+                    <label for="date_of_birth">Fecha de Nacimiento</label>
+                    <input type="date" name="date_of_birth" id="date_of_birth">
+                    <div class="feedback"></div>
+                </div>
+    
+                <div id="campoEmail" class="grupo">
+                    <label for="Email">Correo</label>
+                    <input type="text" name="Email" id="Email" placeholder="Ingrese su correo">
+                    <div class="feedback"></div>
+                </div>
+    
+                <div id="campoPassword" class="grupo">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+                    <div class="feedback"></div>
+                </div>
+    
+                <div id="validarPass" class="grupo">
+                    <label for="confirm_password">Comprobar Password</label>
+                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Combrobar contraseña">
+                    <div class="feedback"></div>
+                </div>
+    
+                <!-- Modal -->
+                <div>
+                    <div id="TandC" class="grupo">
+                        <label for="Terms-Conditions">Aceptar Términos de uso</label>
+                        <input type="checkbox" name="Terms-Conditions" id="Terms-Conditions">
+                        <div class="feedback"></div>
+                    </div>
+                    <div class="TermsandConditions">
+                        <span class="closeM5">X</span>
+                        <h5>Terminos Y Condiciones</h5>
+                        <br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloribus? Numquam, autem
+                            pariatur ipsam beatae eum impedit nulla molestiae quas repudiandae? Sapiente fugit, earum omnis
+                            tempora quisquam quam beatae a.</p>
+                        <button type="button" id="Accept" onclick="aceptar()">Accept</button>
+                    </div>
+                </div>
+                <button type="submit" id="btnSubmit">Submit</button>
+            </form>
+        </main>
+    </div>
 
     <footer>
         <img class="logo" src="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg" alt="Spacecraft" width="100">

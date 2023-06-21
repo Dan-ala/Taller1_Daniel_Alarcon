@@ -10,7 +10,7 @@
 
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/reto5.css">
     <link rel="stylesheet" href="/css/footer.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -23,29 +23,34 @@
         <h2 class="header-text"><span class="auto-type3">Reto 5 Instructores y Actividades</span></h2>
     </header>
 
-    <br>
-
-    <nav class="nav">
-        <!-- <h1>SpaceDan</h1> -->
-        <div class="btns">
-            <br><br>
-            <a href="reto1.html"><button class="btn1" type="submit"><h3>Reto1</h3></button></a>
-            <br><br>
-            <a href="reto2.html"><button class="btn1" type="submit"><h3>Reto2</h3></button></a>
-            <br><br>
-            <a href="reto4.html"><button class="btn1" type="submit"><h3>Reto4</h3></button></a>
-            <br><br>
-            <a href="reto6.html"><button class="btn1" type="submit"><h3>Reto6</h3></button></a>
-            <br><br>
-            <a href="form.html"><button class="btn1" type="submit"><h3>Reto7</h3></button></a>
-        </div>
-    </nav>
-
-    <form class="formulario_r5">
-
-        <h3>Comprobación</h3>
-        <br>
-            <h6>Nombres</h6>
+    <div class="principal">
+        <nav id="sidenav">
+            <!-- <h1>SpaceDan</h1> -->
+            <div class="btns">
+                <a href="reto1.html"><button class="btn1" type="submit">
+                        <h3>Reto1</h3>
+                    </button></a>
+                <a href="reto2.html"><button class="btn1" type="submit">
+                        <h3>Reto2</h3>
+                    </button></a>
+                <a href="reto3.html"><button class="btn1" type="submit">
+                        <h3>Reto3</h3>
+                    </button></a>
+                <a href="reto4.html"><button class="btn1" type="submit">
+                        <h3>Reto4</h3>
+                    </button></a>
+                <a href="reto6.html"><button class="btn1" type="submit">
+                        <h3>Reto6</h3>
+                    </button></a>
+                <a href="form.html"><button class="btn1" type="submit">
+                        <h3>Reto7</h3>
+                    </button></a>
+            </div>
+        </nav>
+    
+        <form class="form_reto5">
+            <p class="p1">Comparación</p>
+            <p class="p2">Nombres</p>
             <select id="names">
                 <option value="1">Margarita</option>
                 <option value="2">Sandra</option>
@@ -54,38 +59,32 @@
                 <option value="5">Erik</option>
                 <option value="6">Julio</option>
                 <option value="7">Cristian</option>
-        </select>
+            </select>
 
-        <br><br>
-        <div class="ojo2">
-            <h6>Apellidos</h6>
-            <select id="last-name">
-                <option value="8">Buitrago</option>
-                <option value="9">Fajardo</option>
-                <option value="10">Guarin</option>
-                <option value="11">Rueda</option>
-                <option value="12">Buitrago</option>
-                <option value="13">Garavito</option>
-                <option value="14">Granados</option>
-        </select>
-    </div>
+                <p class="p3">Apellidos</p>
+                <select id="last-name">
+                    <option value="8">Buitrago</option>
+                    <option value="9">Fajardo</option>
+                    <option value="10">Guarin</option>
+                    <option value="11">Rueda</option>
+                    <option value="12">Buitrago</option>
+                    <option value="13">Garavito</option>
+                    <option value="14">Granados</option>
+                </select>
 
-    <div class="ojo3">
-        <h6>Actividades</h6>
-            <select id="activities">
-                <option value="15">Diseño Proyecto</option>
-                <option value="16">Base Datos</option>
-                <option value="17">Prototivado Avanzado</option>
-                <option value="18">JavaScript</option>
-                <option value="19">Java</option>
-                <option value="20">Derechos fundamentles del trabajo</option>
-                <option value="21">Pyhton</option>
-        </select>
+                <p class="p4">Actividades</p>
+                <select id="activities">
+                    <option value="15">Diseño Proyecto</option>
+                    <option value="16">Base Datos</option>
+                    <option value="17">Prototivado Avanzado</option>
+                    <option value="18">JavaScript</option>
+                    <option value="19">Java</option>
+                    <option value="20">Derechos fundamentles del trabajo</option>
+                    <option value="21">Pyhton</option>
+                </select>
+            <button id="c" onclick="com(event)">Enviar</button>
+        </form>
     </div>
-        <br>
-        
-        <button id="c" onclick="com(event)">Enviar</button>
-    </form>
 
     <footer>
         <img class="logo" src="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg" alt="Spacecraft" width="100">

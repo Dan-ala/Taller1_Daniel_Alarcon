@@ -1,22 +1,16 @@
 main{
-    display: flexbox;
-    position: absolute;
-    bottom: -150px;
+    display: flex;
 }
 
 
 .card1{
-    align-content:center;
-    justify-content: center;
+    display: flex;
     border: solid 1px;
     border-color: yellow;
     background-color: aqua;
-    margin-top: -625px;
     display: none;
-    margin-right: 907px;
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
     z-index: 1;
@@ -24,17 +18,13 @@ main{
 
 
 .cardArea1{
-    align-content:center;
-    justify-content: center;
+    display: flex;
     border: solid 1px;
     border-color: yellow;
     background-color: aqua;
-    margin-top: -625px;
     display: none;
-    margin-right: 907px;
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
     z-index: 1;
@@ -44,18 +34,13 @@ main{
 
 
 .card2{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
     border-color: yellow;
     background-color: rgb(255, 47, 113);
-    margin-top: -625px;
     /* display: flexbox; */
     display: none;
-    margin-right: 620px;
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
     z-index: 1;
@@ -63,18 +48,12 @@ main{
 
 
 .cardArea2{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
     border-color: yellow;
     background-color: rgb(255, 47, 113);
-    margin-top: -625px;
-    /* display: flexbox; */
     display: none;
-    margin-right: 620px;
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
     z-index: 1;
@@ -103,14 +82,10 @@ main{
 
 
 .card3{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
     border-color: yellow;
     background-color: darkcyan;
-    margin-top: -625px;
     display: none;
-    margin-right: 320px;
     width: 275px;
     height: 350px;
     float: right;
@@ -120,17 +95,12 @@ main{
 }
 
 .cardArea3{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
     border-color: yellow;
     background-color: darkcyan;
-    margin-top: -625px;
     display: none;
-    margin-right: 320px;
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
     z-index: 1;
@@ -173,34 +143,24 @@ main{
 
 
 .card4{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
     border-color: yellow;
     background-color: lightsalmon;
-    margin-top: -625px;
     display: none;
-    margin-right: 20px;
     width: 290px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
     z-index: 1;
 }
 
 .cardArea4{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
     border-color: yellow;
     background-color: lightsalmon;
-    margin-top: -625px;
     display: none;
-    margin-right: 20px;
     width: 290px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
     z-index: 1;
@@ -223,61 +183,44 @@ main{
 
 .cardIni1{
     border: solid 1px;
-    border-color: yellow;
-    background-color: aqua;
-    margin-top: -625px;
-    margin-right: 907px;
+    border-color: red;
+    border-radius: 15px;
+    background-color: hsla(0, 85%, 35%, 0.197);
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
-    align-items: center;
-    justify-content: center;
 }
 
 .cardIni2{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
-    border-color: yellow;
-    background-color: rgb(255, 47, 113);
-    margin-top: -625px;
-    /* display: flexbox; */
-    margin-right: 620px;
+    border-color: red;
+    border-radius: 15px;
+    background-color: hsla(0, 85%, 35%, 0.197);
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
 }
 
 .cardIni3{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
-    border-color: yellow;
-    background-color: darkcyan;
-    margin-top: -625px;
-    margin-right: 320px;
+    border-color: red;
+    border-radius: 15px;
+    background-color: hsla(0, 85%, 35%, 0.197);
     width: 275px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
 }
 
 .cardIni4{
-    align-content:center;
-    justify-content: center;
     border: solid 1px;
-    border-color: yellow;
-    background-color: lightsalmon;
-    margin-top: -625px;
-    margin-right: 20px;
+    border-color: red;
+    border-radius: 15px;
+    background-color: hsla(0, 85%, 35%, 0.197);
     width: 290px;
     height: 350px;
-    float: right;
     animation-name: aM;
     animation-duration: 2s;
 }
@@ -288,7 +231,8 @@ main{
     align-content:center;
     justify-content: center;
     border: solid 1px;
-    border-color: yellow;
+    border-radius: 10px;
+    border-color: red;
     background-color: lightsalmon;
     margin-top: -500px;
     display: none;

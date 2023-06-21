@@ -1,13 +1,12 @@
 /*FORM - reto7*/
 form{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 80vh;
     flex-direction: column;
-    margin-top: -470px;
-    margin-left: 430px;
+    align-items: center;
     background: whitesmoke;
+    color:whites;
+    width: 15%;
+    height: 98vh;
 }
 
 .retoForm{
@@ -89,21 +88,3 @@ input{
 .error{
     border: 3px solid red;
 }
-
-
-.strength_meter{
-    height: 2.rem;
-    width: 9%;
-    border: 3px solid blue;
-    border-radius: 1rem;
-    margin: 0 auto;
-}
-
-.reasons>*{
-    margin-top: 1.5rem;
-    color: red;
-
-}
-
-
-/* //Modal// */

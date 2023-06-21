@@ -11,6 +11,7 @@
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/reto3.css">
     <link rel="stylesheet" href="/css/footer.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -23,59 +24,54 @@
         <h2 class="header-text"><span class="auto-type3">Reto 3 Temperaturas</span></h2>
     </header>
 
-    <br>
+    <div class="principal">
+        <nav id="sidenav">
+            <!-- <h1>SpaceDan</h1> -->
+            <div class="btns">
+                <a href="reto1.html"><button class="btn1" type="submit">
+                        <h3>Reto1</h3>
+                    </button></a>
+                <a href="reto2.html"><button class="btn1" type="submit">
+                        <h3>Reto2</h3>
+                    </button></a>
+                    <a href="reto4.html"><button class="btn1" type="submit">
+                        <h3>Reto4</h3>
+                    </button></a>
+                <a href="reto5.html"><button class="btn1" type="submit">
+                        <h3>Reto5</h3>
+                    </button></a>
+                <a href="reto6.html"><button class="btn1" type="submit">
+                        <h3>Reto6</h3>
+                    </button></a>
+                <a href="form.html"><button class="btn1" type="submit">
+                        <h3>Reto7</h3>
+                    </button></a>
+            </div>
+        </nav>
+    
+        <form class="form_reto3">
+    
+            <p class="p1">Ingrese Temperatura</p>
+    
+            <label for="inputT">Temperatura</label>
+            <input id="grados" name="grados" placeholder="Ingrese Temperatura">
 
-    <nav class="nav">
-        <!-- <h1>SpaceDan</h1> -->
-        <div class="btns">
-            <br><br>
-            <a href="reto1.html"><button class="btn1" type="submit"><h3>Reto1</h3></button></a>
-            <br><br>
-            <a href="reto2.html"><button class="btn1" type="submit"><h3>Reto2</h3></button></a>
-            <br><br>
-            <a href="reto4.html"><button class="btn1" type="submit"><h3>Reto4</h3></button></a>
-            <br><br>
-            <a href="reto5.html"><button class="btn1" type="submit"><h3>Reto5</h3></button></a>
-            <br><br>
-            <a href="reto6.html"><button class="btn1" type="submit"><h3>Reto6</h3></button></a>
-            <br><br>
-            <a href="form.html"><button class="btn1" type="submit"><h3>Reto7</h3></button></a>
-        </div>
-    </nav>
-
-    <form class="formulario">
-
-        <h3>Ingrese Temperatura</h3>
-        <br>
-
-        <label for="inputT">Temperatura</label>
-        <input id="grados" name="grados"
-        placeholder="Ingrese Temperatura">
-        
-            <br><br>
-
-            <h6>Vas a combertir de:</h6>
+            <p class="p2">Vas a combertir de:</p>
             <select id="to1">
                 <option value="1">Fahrenheit</option>
                 <option value="2">Celsius</option>
                 <option value="3">Kelvin</option>
-        </select>
-
-        <br><br>
-        <div class="ojo">
-            <h6>Deseas convertir a:</h6>
-            <select id="to2">
-                <option value="4">Fahrenheit</option>
-                <option value="5">Celsius</option>
-                <option value="6">Kelvin</option>
-        </select>
+            </select>
+    
+                <p class="p3">Deseas convertir a:</p>
+                <select id="to2">
+                    <option value="4">Fahrenheit</option>
+                    <option value="5">Celsius</option>
+                    <option value="6">Kelvin</option>
+                </select>
+            <button id="btnT" onclick="temperaturas(event)">Enviar</button>
+        </form>
     </div>
-        <br>
-        
-        <button id="btnT" onclick="temperaturas(event)">Enviar</button>
-    </form>
-
-    <br>
 
     <footer>
         <img class="logo" src="https://i.pinimg.com/originals/66/9c/5c/669c5cf6186e391efb5abd2debc9ac16.jpg" alt="Spacecraft" width="100">
