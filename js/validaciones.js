@@ -130,13 +130,12 @@ form.date_of_birth.addEventListener("change",e=>{
 form.Email.addEventListener("input",e=>{
     if (mail.test(e.target.value)) {
         form.Email.setAttribute("class","success")
-        f5.textContent='Solamente se permite el dominio @misena.edu.co'
-        f5.style.setProperty("display","none")
+        f5.style.setProperty("visibility","none")
         f5.style.setProperty("opacity","0")
         flag5=true
     }else{
         form.Email.setAttribute("class","error")
-        f5.textContents='Solamente se permite el dominio @misena.edu.co'
+        f5.textContent='Solamente se permite el dominio @misena.edu.co'
         f5.style.setProperty("visibility","visible")
         f5.style.setProperty("opacity","1")
         flag5=false
@@ -200,15 +199,16 @@ closeModal.addEventListener("click",()=>{
 
 
 //Aceptar los T&C
-let cerrarTerminos=document.querySelector("#Accept")
+let cerrarYAceptarTerminos=document.querySelector("#Accept")
 
-cerrarTerminos.addEventListener("click",()=>{
+cerrarYAceptarTerminos.addEventListener("click",e=>{
     ventanaModal.style.display="none"
 })
 
 
 
-
+const btnEnviar = form.btnSubmit.value
+const btnEnvia = querySelector("#btnSubmit")
 
 
 
@@ -251,9 +251,9 @@ form.addEventListener("submit",e=>{
         alert('Ojo con lo que ingresa!')
         form.confirm_password.focus()
         form.confirm_password.setAttribute("class","error")
-    }//else if(){}
-    
-    
+    }else if(btnEnviar == null){
+        alert('SUS DATOS HAN SIDO ENVIADOS')
+    }
     else{
         form.submit()
     }
